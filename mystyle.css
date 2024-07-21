@@ -1,0 +1,51 @@
+
+        #addBoxButton:hover {
+            background-color: #4caf505c;
+            border: 1px solid #4caf505c;
+        }
+
+        #addBoxButton {
+            border: 1px solid #c3b9b9;
+        }
+
+        .item {
+            transition: transform 0.3s ease;
+        }
+
+        .item:hover {
+            transform: scale(1.05);
+            z-index: 10;
+        }
+
+        .btn-plus {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            padding: 0.5rem;
+            background-color: #3182ce;
+            color: white;
+            border-radius: 9999px;
+        }
+
+        #placeholder {
+            border: 2px solid #e1e1e1;
+            border-style: dashed;
+            background-color: #fbfbfbc9;
+        }
+
+        .placeholder-hidden {
+            border: 0px solid #e1e1e1 !important;
+            border-style: none !important;
+        }
+        .placeholder-error {
+    animation: shake-animation 0.5s ease-in-out;
+}
+
+@keyframes shake-animation {
+    0% { transform: translate(0); }
+    10%, 90% { transform: translate(-5px, 0); }
+    20%, 80% { transform: translate(5px, 0); }
+    30%, 50%, 70% { transform: translate(-5px, 0); }
+    40%, 60% { transform: translate(5px, 0); }
+    100% { transform: translate(0); }
+}
