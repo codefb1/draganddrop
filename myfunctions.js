@@ -32,15 +32,15 @@
             <div class="p-2 grid grid-cols-3 rounded-t-lg relative"
                 style="border-bottom: 1px solid #DDDDDD;">
                 <button class="ml-2 w-2" id="dropbox${newBoxNumber}" onclick="dropBox('${newBoxId}')">
-                    <img src="img/arrow.svg" alt="arrow">
+                    <img src="arrow.svg" alt="arrow">
                 </button>
                 <button class="ml-2 w-2" id="back${newBoxNumber}" onclick="backBox('${newBoxId}')"
                     style="display:none">
-                    <img src="img/arrow.svg" style="rotate:180deg" alt="arrow">
+                    <img src="arrow.svg" style="rotate:180deg" alt="arrow">
                 </button>
                 <span class="justify-center">Box number ${newBoxNumber}</span>
                 <button class="absolute mt-3 w-4 right-3" id="deletebuton${newBoxNumber}" onclick="deleteBox('${newBoxId}')">
-                    <img src="img/delete.svg" alt="">
+                    <img src="delete.svg" alt="">
                 </button>
             </div>
         </div>
